@@ -1,0 +1,45 @@
+apply from: "$rootProject.projectDir/versions.gradle"
+
+ext.androidJetpack = {
+    // androidx
+    implementation "androidx.appcompat:appcompat:$APP_COMPAT"
+    implementation "androidx.cardview:cardview:$CARD_VIEW"
+    implementation "com.google.android.material:material:$MATERIAL_LIBRARY"
+    implementation "androidx.recyclerview:recyclerview:$RECYCLER_VIEW"
+    implementation "androidx.constraintlayout:constraintlayout:$CONSTRAINT_LAYOUT"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$SWIPE_REFRESH_LAYOUT"
+    // lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:$ARCH_LIFECYCLE_EXT"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$ARCH_LIFECYCLE_KTX"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$ARCH_LIFECYCLE_KTX"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$ARCH_LIFECYCLE"
+    kapt "androidx.lifecycle:lifecycle-compiler:$ARCH_LIFECYCLE"
+    // navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$NAVIGATION"
+    implementation "androidx.navigation:navigation-ui-ktx:$NAVIGATION"
+    // hilt
+    implementation "com.google.dagger:hilt-android:$HILT"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$HILT_ANDROID_X"
+    kapt "androidx.hilt:hilt-compiler:$HILT_ANDROID_X"
+    kapt "com.google.dagger:hilt-android-compiler:$HILT"
+    // test tools
+    testImplementation  "com.squareup.okhttp3:mockwebserver:$MOCK_WEB_SERVER"
+    testImplementation  "junit:junit:$JUNIT"
+    testImplementation  "org.mockito:mockito-core:$MOCKITO"
+    testImplementation  "org.hamcrest:hamcrest-all:$HAMCREST"
+    testImplementation  "androidx.arch.core:core-testing:$ARCH_TESTING"
+    testImplementation  "org.jetbrains.kotlinx:kotlinx-coroutines-test:$COROUTINES"
+    testImplementation  "org.robolectric:robolectric:$ROBOLECTRIC"
+}
+ext.retrofit = {
+    implementation "com.squareup.retrofit2:retrofit:$RETROFIT"
+    implementation "com.squareup.retrofit2:converter-gson:$RETROFIT"
+    implementation "com.squareup.okhttp3:logging-interceptor:$OK_HTTP"
+}
+ext.coroutines = {
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$COROUTINES"
+}
+ext.glide = {
+    implementation "com.github.bumptech.glide:glide:$GLIDE"
+    kapt "com.github.bumptech.glide:compiler:$GLIDE"
+}

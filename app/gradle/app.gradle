@@ -1,0 +1,35 @@
+ext {
+    APPLICATION_ID = "com.amirghm.grocery"
+
+    COMPILE_SDK = 30
+    TARGET_SDK = 30
+    MIN_SDK = 21
+
+    BUILD_TOOLS = '30.0.3'
+    KOTLIN = '1.3.72'
+    JAVA = '1.8'
+}
+
+ext.defaults = {
+    defaultConfig {
+        minSdk MIN_SDK
+        targetSdk TARGET_SDK
+        applicationId APPLICATION_ID
+    }
+}
+
+ext.androidConfig = {
+    compileSdk COMPILE_SDK
+    buildToolsVersion BUILD_TOOLS
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JAVA
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
