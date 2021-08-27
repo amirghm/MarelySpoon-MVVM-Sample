@@ -1,6 +1,7 @@
-package com.amirghm.grocery.utils.helper.network
+package com.amirghm.marelyspoon.utils.helper.network
 
 import androidx.annotation.Keep
+import com.amirghm.marelyspoon.utils.helper.network.ErrorStatus
 
 /**
  * Default error model that comes from server if something goes wrong with a repository call

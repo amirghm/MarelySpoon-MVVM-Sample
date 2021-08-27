@@ -1,13 +1,17 @@
 package com.amirghm.marelyspoon.ui.recipes
 
 import androidx.lifecycle.*
-import com.amirghm.grocery.utils.helper.network.ErrorModel
+import com.amirghm.marelyspoon.data.repository.RecipeRepository
+import com.amirghm.marelyspoon.utils.helper.network.ErrorModel
+import com.amirghm.marelyspoon.utils.helper.network.Result
 import com.amirghm.marelyspoon.data.model.recipe.RecipeModel
+import com.amirghm.marelyspoon.ui.recipes.mapper.mapItemsResponseToUIList
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.collect
 import javax.inject.Inject
 
 @HiltViewModel
-class RecipesViewModel @Inject constructor() :
+class RecipesViewModel @Inject constructor(var recipeRepository: RecipeRepository)  :
     ViewModel() {
 
     val isLoading = MutableLiveData<Boolean>()
@@ -18,12 +22,21 @@ class RecipesViewModel @Inject constructor() :
 
     private var _recipeList: LiveData<List<RecipeModel>> = refreshList.switchMap {
         isLoading.value = true
-        getProducts()
+        getRecipes()
     }
 
-    private fun getProducts():MutableLiveData<List<RecipeModel>>
-    {
-        return MutableLiveData<List<RecipeModel>>()
+    private fun getRecipes() = liveData {
+        recipeRepository.getRecipes().collect { result->
+            isLoading.value = false
+            when (result.status) {
+                Result.Status.ERROR -> {
+                    errorModel.postValue(result.errorModel)
+                }
+                Result.Status.SUCCESS -> {
+                    emit(mapItemsResponseToUIList(result.data))
+                }
+            }
+        }
     }
 
     fun refreshList() {

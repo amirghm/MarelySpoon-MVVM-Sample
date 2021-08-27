@@ -1,4 +1,4 @@
-package com.amirghm.grocery.utils.helper.network
+package com.amirghm.marelyspoon.utils.helper.network
 
 import androidx.annotation.Keep
 

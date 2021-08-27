@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import com.amirghm.grocery.utils.extentions.observeOnce
-import com.amirghm.grocery.utils.helper.network.ErrorModel
+import com.amirghm.marelyspoon.utils.extentions.observeOnce
+import com.amirghm.marelyspoon.utils.helper.network.ErrorModel
 import com.amirghm.marelyspoon.R
 import com.amirghm.marelyspoon.data.model.recipe.RecipeModel
 import com.amirghm.marelyspoon.databinding.FragmentRecipesBinding

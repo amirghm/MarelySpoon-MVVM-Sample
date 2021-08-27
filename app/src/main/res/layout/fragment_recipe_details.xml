@@ -31,6 +31,7 @@
                     android:id="@+id/recipeImageRelativeLayout"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/image_details_height"
+                    android:layout_marginBottom="@dimen/distance_medium"
                     android:background="@color/colorGrey">
 
                     <ImageView
@@ -48,14 +49,11 @@
                         android:contentDescription="@string/cd__recipe_image"
                         android:scaleType="centerCrop"
                         app:srcUrl="@{recipe.imageUrl}" />
-
-
                 </RelativeLayout>
-
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/clickable_icon_size"
+                    android:layout_height="@dimen/recipe_shadow_details_size"
                     android:layout_alignBottom="@+id/recipeImageRelativeLayout"
                     android:background="@drawable/d_down_shadow" />
 
@@ -66,14 +64,15 @@
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/recipeImageRelativeLayout"
                     android:layout_marginStart="@dimen/distance_large"
-                    android:layout_marginBottom="@dimen/distance_small"
+                    android:layout_marginEnd="@dimen/distance_large"
+                    android:layout_marginBottom="@dimen/distance_large"
+                    android:textSize="@dimen/font_size_xxmedium"
                     android:ellipsize="end"
                     android:maxLines="2"
                     android:text="@{recipe.title}"
                     android:textColor="@android:color/white"
                     android:textStyle="normal"
-                    tools:text="Mozzarellaa" />
-
+                    tools:text="Mozzarella" />
 
                 <TextView
                     android:id="@+id/chefTextView"
@@ -82,19 +81,34 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/recipeImageRelativeLayout"
                     android:layout_marginStart="@dimen/distance_large"
-                    android:layout_marginTop="@dimen/distance_large"
+                    android:layout_marginTop="@dimen/distance_medium"
                     android:singleLine="true"
                     android:text="@{recipe.chef}"
                     android:textColor="@color/colorPrimaryText"
-                    android:textStyle="normal"
+                    android:textSize="@dimen/font_size_xxmedium"
+                    android:textStyle="bold"
+                    app:isVisible="@{recipe.chef.length()!=0}"
                     tools:text="Gordon Ramzi" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/tagChipGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chefTextView"
+                    android:layout_marginStart="@dimen/distance_large"
+                    android:layout_marginEnd="@dimen/distance_large"
+                    app:chips="@{recipe.tags}"
+                    app:chipSpacingHorizontal="4dp"/>
+
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/recipeImageCardView"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/recipe_image_height"
-                    android:layout_below="@+id/chefTextView"
-                    android:layout_margin="@dimen/distance_large"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tagChipGroup"
+                    android:layout_marginStart="@dimen/distance_large"
+                    android:layout_marginEnd="@dimen/distance_large"
+                    android:layout_marginTop="@dimen/distance_medium"
                     android:minWidth="@dimen/recipe_image_width"
                     app:cardBackgroundColor="@android:color/white"
                     app:cardCornerRadius="@dimen/image_corner_radius"
@@ -114,20 +128,21 @@
                             android:layout_marginStart="@dimen/distance_large"
                             android:layout_marginTop="@dimen/distance_large"
                             android:singleLine="true"
-                            android:textColor="@color/colorRecipes"
+                            android:textColor="@color/colorAccent"
                             android:textStyle="bold"
                             android:text="@string/recipe_details__description" />
 
                         <TextView
                             android:id="@+id/descriptionTextView"
-                            style="@style/detailsTextViewStyle"
-                            android:layout_width="wrap_content"
+                            style="@style/primaryTextAppearance"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_below="@id/descriptionTitleTextView"
                             android:layout_marginStart="@dimen/distance_large"
-                            android:layout_marginTop="@dimen/distance_medium"
+                            android:layout_marginTop="@dimen/distance_large"
+                            android:layout_marginEnd="@dimen/distance_large"
+                            android:textSize="@dimen/font_size_small"
                             android:layout_marginBottom="@dimen/distance_large"
-                            android:singleLine="true"
                             android:text="@{recipe.description}"
                             app:placeHolder="@{@string/recipe_details__description_place_holder}"
                             tools:text="@string/recipe_details__description_place_holder" />
@@ -155,7 +170,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:navigateUpOnClick="@{true}"
-            app:srcCompat="@drawable/ic_back" />
+            app:srcCompat="@drawable/ic_close" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

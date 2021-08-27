@@ -20,7 +20,7 @@ object NetworkModule {
 
     @Qualifier
     @Retention(AnnotationRetention.RUNTIME)
-    annotation class Catalog
+    annotation class Recipe
 
     @Singleton
     @Provides
