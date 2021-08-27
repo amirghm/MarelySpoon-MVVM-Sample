@@ -2,8 +2,7 @@
 <resources>
     <color name="colorPrimary">#F5D357</color>
     <color name="colorPrimaryDark">#E8BD1F</color>
-    <color name="colorAccent">#60C5F8</color>
-    <color name="colorRecipes">#FF8E65</color>
+    <color name="colorAccent">#FF8E65</color>
     <color name="colorRecipes_a88">#88FF8E65</color>
     <color name="colorTintBackground">#FAFAFA</color>
     <color name="colorSecondaryText">#BBBBBD</color>
@@ -11,4 +10,5 @@
     <color name="colorPrimaryText">#FF4A4A4A</color>
     <color name="colorStatusBar">#000000</color>
     <color name="colorShadowGradient">#33333333</color>
+    <color name="colorShadowGradientDown">#FF333333</color>
 </resources>

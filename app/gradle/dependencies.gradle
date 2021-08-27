@@ -36,6 +36,11 @@ ext.retrofit = {
     implementation "com.squareup.retrofit2:converter-gson:$RETROFIT"
     implementation "com.squareup.okhttp3:logging-interceptor:$OK_HTTP"
 }
+ext.serialization = {
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$KOTLIN_SERIALIZATION"
+    implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$KOTLIN_RETROFIT_SERIALIZATION"
+}
+
 ext.coroutines = {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$COROUTINES"
 }

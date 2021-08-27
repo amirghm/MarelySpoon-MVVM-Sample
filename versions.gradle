@@ -6,6 +6,8 @@ ext {
     RECYCLER_VIEW = '1.2.1'
     CONSTRAINT_LAYOUT = '2.1.0'
     SWIPE_REFRESH_LAYOUT = '1.1.0'
+    KOTLIN_SERIALIZATION = '1.2.2'
+    KOTLIN_RETROFIT_SERIALIZATION = '0.8.0'
 
     // architecture lifecycle
     ARCH_LIFECYCLE = '2.3.1'

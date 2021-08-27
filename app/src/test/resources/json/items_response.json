@@ -1,0 +1,3450 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 28,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "3n2wPdC9GGi2QCdnrW4Ifz",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:37:24.567Z",
+        "updatedAt": "2020-05-06T15:11:35.360Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Germany",
+        "url": "https://marleyspoon.de"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "4fQCxPPGuQxN3LFPY0064G",
+        "type": "Entry",
+        "createdAt": "2020-05-06T15:09:38.721Z",
+        "updatedAt": "2020-05-06T15:09:38.721Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "question": "How much does it cost?",
+        "answer": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "A trillion bucks",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "7xxJXKl94kF61ui68fYOEs",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:56:02.830Z",
+        "updatedAt": "2020-04-29T10:26:57.043Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSection"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Offer",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4kbW4ttMRN4VLEw5HDr3kn"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6KIy6mu0sgOUYDYUMimlr0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "6KIy6mu0sgOUYDYUMimlr0",
+        "type": "Entry",
+        "createdAt": "2020-04-29T10:26:33.851Z",
+        "updatedAt": "2020-04-29T10:26:40.019Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "question": "Do you have pao de queijo?",
+        "answer": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "No man, we don't sorry. Ask Iguatemi",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "54Wruft9n0xpO8H2pfXUjS",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:37:28.402Z",
+        "updatedAt": "2020-04-29T09:15:48.880Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSection"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3n2wPdC9GGi2QCdnrW4Ifz"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "38Nzso3rxl20uDlgiJfjRs"
+            }
+          }
+        ],
+        "title": "Wordwide"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "38Nzso3rxl20uDlgiJfjRs",
+        "type": "Entry",
+        "createdAt": "2020-04-29T09:15:36.079Z",
+        "updatedAt": "2020-04-29T09:15:36.079Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Australia",
+        "url": "https://marleyspoon.com.au"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "3nCecHLY5o6gYY7hcA8YK0",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:56:30.578Z",
+        "updatedAt": "2020-04-29T08:58:34.213Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "FAQ",
+        "country": "us",
+        "brand": "ms",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2nJ2wWxJyVduUFG29PxFzH"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7xxJXKl94kF61ui68fYOEs"
+            }
+          }
+        ],
+        "slug": "faq"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "3ZwCqcNVwurYkDeKt6LGgh",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:37:32.475Z",
+        "updatedAt": "2020-04-21T13:37:32.475Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "settings"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "footer": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6KVq7t3Mv72eym0coiaaaS"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "54Wruft9n0xpO8H2pfXUjS"
+            }
+          }
+        ],
+        "country": "us",
+        "brand": "ms"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "6KVq7t3Mv72eym0coiaaaS",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:36:53.735Z",
+        "updatedAt": "2020-04-21T13:36:53.735Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSection"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "46krmCG7gxGO1pJIRaF9tv"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6tiL8mpa3rBPHZEgHqCtdQ"
+            }
+          }
+        ],
+        "title": "About Us"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "6tiL8mpa3rBPHZEgHqCtdQ",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:36:43.867Z",
+        "updatedAt": "2020-04-21T13:36:43.867Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Privay",
+        "url": "/privacy"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "46krmCG7gxGO1pJIRaF9tv",
+        "type": "Entry",
+        "createdAt": "2020-04-21T13:36:22.150Z",
+        "updatedAt": "2020-04-21T13:36:22.150Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Company",
+        "url": "/out-story"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "4kbW4ttMRN4VLEw5HDr3kn",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:55:54.052Z",
+        "updatedAt": "2020-04-20T16:55:54.052Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "question": "Do you serve vegans?",
+        "answer": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "YEAH!",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "2nJ2wWxJyVduUFG29PxFzH",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:55:18.340Z",
+        "updatedAt": "2020-04-20T16:55:18.340Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSection"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "What is Marley Spoon",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5tLcIBPgXfaFRRq4FEpR5U"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6twgUYy3f0M12r4kXXABls"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "6twgUYy3f0M12r4kXXABls",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:55:13.758Z",
+        "updatedAt": "2020-04-20T16:55:13.758Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "question": "When do you deliver?",
+        "answer": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "unordered-list",
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Mondays - 20h - 22h",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Fridays - 12h - 16h",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ],
+                      "data": {}
+                    }
+                  ],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            },
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "5tLcIBPgXfaFRRq4FEpR5U",
+        "type": "Entry",
+        "createdAt": "2020-04-20T16:54:32.455Z",
+        "updatedAt": "2020-04-20T16:54:32.455Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqSectionItem"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "question": "Where did the company come from?",
+        "answer": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "It came from Berlin. ",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            },
+            {
+              "nodeType": "paragraph",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "And it's awesome! ♥️",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {}
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "C3UxXSKRaqabKeturENj5",
+        "type": "Entry",
+        "createdAt": "2019-12-10T10:02:19.007Z",
+        "updatedAt": "2019-12-10T11:00:22.805Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "staticPage"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "country": "dk",
+        "brand": "ms",
+        "slug": "privacy",
+        "rich": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Generelle forretningsbetingelser og vilkår for Marley Spoon B.V.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-1"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 1. Gyldighedsområde, bestillerens generelle forpligtelser, ændring af de generelle forretningsbetingelser og vilkår",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Disse generelle forretningsbetingelser og vilkår (herefter også benævnt \"forretningsbetingelser\") gælder for alle nuværende og fremtidige bestillinger foretaget af dig (herefter benævnt \"den bestillende part\") hos Marley Spoon B.V. (herefter \"Marley Spoon\"). Aftaleforholdet er dermed udelukkende underlagt nedenstående bestemmelser.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Samtlige informationer, som den bestillende part har afgivet under bestillingsprocessen, skal være aktuelle og korrekte. Adgangskoden må ikke videregives til tredjepart og skal opbevares sikkert og utilgængeligt for uvedkommende. Skulle du miste adgangskoden eller komme til at videregive den, skal Marley Spoon straks informeres skriftligt herom. I henhold til de juridiske bestemmelser hæfter den bestillende part for eventuelt misbrug, f.eks. gennem uautoriserede bestillinger foretaget af tredjepart ved hjælp af den bestillende parts adgangskode, og de deraf følgende fordringer.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Marley Spoon forbeholder sig retten til at ændre disse forretningsbetingelser med fremadrettet virkning i henhold til følgende procedure: Marley Spoon informerer i første omgang den bestillende part om de forestående ændringer af forretningsbetingelserne. I den forbindelse gøres den bestillende part opmærksom på fortrydelsesretten. Ændringerne anses som værende accepteret, hvis der ikke gøres indsigelse mod dem inden for en måned efter udsendelse af ændringsmeddelelsen.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Har den bestillende part sine egne forretningsbetingelser, der afviger fra, strider mod eller supplerer vores forretningsbetingelser, udgør disse ikke en del af aftalen.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 2. Aftaleindgåelse ved bestilling af madretter, vejledende angivelser, bestillingsmængder og begrænsninger",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Alle oplysninger vedrørende Marley Spoons varer og priser, der er angivet inden aftaleindgåelsen, er uden forbindende og blot vejledende. De leverede produkter modsvarer ikke altid de viste produktillustrationer rent udseendemæssigt. Der kan især forekomme ændringer i artiklernes udseende eller egenskaber som følge af sortimentsændringer foretaget af producenten. Der kan ikke reklameres over kvaliteten på denne baggrund, så længe ændringerne med al rimelighed må anses som acceptable for den bestillende part. Medmindre andet udtrykkeligt er aftalt, kan der ikke stilles krav om leveringen af bestemte artikler i måltidskasserne fra Marley Spoon. Hvis den bestillende part af en eller grund ikke er tilfreds med en madret eller en ingrediens, kan denne kontakte Marley Spoon via e-mailadressen kontakt@marleyspoon.dk inden for syv (7) dage efter datoen for modtagelse af måltidskassen. Efter eget skøn kan Marley Spoon vælge at tilbyde en fuldstændig eller delvis refusion af fødevarens / ingrediensens købspris eller udstede et tilgodebevis til den bestillende parts kundekonto, som så fratrækkes prisen på næste bestilling.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Der indgås en gyldig købsaftale mellem Marley Spoon og den bestillende part, i det øjeblik den bestillende part accepterer et salgstilbud fra Marley Spoon. Proceduren er som følger: Når den bestillende part trykker på knappen \"Betal nu\", afgiver den bestillende part et retsgyldig tilbud om bestilling af varen i indkøbskurven. Marley Spoon accepterer enten dette købstilbud via en bekræftelse eller en faktisk tilsending af den bestilte vare. Frem til dette tidspunkt står det Marley Spoon frit for at afvise købstilbuddet. Produkterne og illustrationen af disse på websitet kan dermed ikke forstås som et juridisk bindende tilbud, men udgør derimod blot et uforpligtende og vejledende online-katalog. Bestillingen bekræftes normalt gennem en automatiseret e-mail, der sendes til e-mailadressen angivet af den bestillende part hos Marley Spoon. Inden for 5 dage kan Marley Spoon acceptere den bestillende parts købstilbud ved at sende en ordrebekræftelse.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Med udvekslingen af tilbud og accept indgås en aftale mellem Marley Spoon og den bestillende part om regelmæssig levering af måltidskasser til den bestillende part. I den forbindelse gøres det muligt for den bestillende part at ændre sine leveringer og varerne i indkøbskurven inden for rammerne af de aktuelle bestillingsmuligheder. Dette omfatter både tidsrammen og ugedagen for levering. Ved hjælp af brugerkontoens indstillinger kan den bestillende part ligeledes vælge at sætte leveringerne på pause i en nærmere angivet periode. Selvom den bestillende part vælger at indlægge en leveringspause, udgør dette ikke en annullering af aftalen. Aftalen om regelmæssige leveringer berøres ikke, selvom den bestillende part vælger at holde en pause i leveringerne. En opsigelse skal indleveres i formatet angivet i aftalen (se § 4). Den bestillende part har i den forbindelse mulighed for at springe enkelte bestillinger over; dette skal ske senest 6 dage før den planlagte leveringsdato. Ligeledes er det muligt at sætte de planlagte leveringer på pause i et nærmere fastlagt tidsrum (eksempel: Hvis en levering skal springes over eller leveringsplanen sættes på pause, og den næste leveringsdato f.eks. falder på en onsdag, skal den bestillende part annullere bestillingen senest om torsdagen ugen før).",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Vores serviceudbud henvender sig til slutbrugere i Danmark, og den bestilte vare er ikke tiltænkt videresalg.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Vi sender dig bestillingsoplysningerne per e-mail. Sammen med bestillingsbekræftelsen finder du fakturaen for den pågældende bestilling vedhæftet. Forretningsbetingelserne kan når som helst læses på ",
+                                  "nodeType": "text"
+                                },
+                                {
+                                  "data": {
+                                    "uri": "http://www.marleyspoon.dk"
+                                  },
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "marks": [
+                                        {
+                                          "type": "underline"
+                                        }
+                                      ],
+                                      "value": "www.marleyspoon.dk",
+                                      "nodeType": "text"
+                                    }
+                                  ],
+                                  "nodeType": "hyperlink"
+                                },
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": ". Den bestillende part accepterer Forretningsbetingelserne i forbindelse med køb og får disse tilsendt sammen med ordrebekræftelsen.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 3. Aftalens løbetid, opsigelse og automatiske forlængelse",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Det er ikke muligt at opsige aftalen inden modtagelse af den første levering. Hvis aftalen ikke opsiges korrekt i henhold til § 4, stk. 2, forlænges den automatisk på ubestemt tid.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis den bestillende part har tænkt sig at opsige aftaleforholdet gældende fra næste planlagte leveringsdato, skal dette ske mindst 6 dage før det aftalte leveringstidspunkt. Opsiges aftalen med gyldighed fra dette tidspunkt, erklærer den bestillende part, at vedkommende fra denne dato og fremadrettet ikke ønsker at modtage måltidskasser fra Marley Spoon. (Eksempel: Hvis opsigelsen skal gælde fra næstkommende leveringsdato (en onsdag), skal den bestillende part indsende sin opsigelse senest om torsdagen ugen før). Tidspunktet for opsigelsens gyldighed afhænger af modtagelsestidspunktet hos Marley Spoon. Opsigelsen skal enten sendes skriftligt til Marley Spoons adresse eller per e-mail til kontakt@marleyspoon.dk.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "I tilfælde af opsigelse får den bestillende part refunderet eventuelt betalte, men ikke modtagne leveringer, hvis det aftalte leveringstidspunkt ligger efter opsigelsesfristens udløb.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Ved tilbudsvarianter med fast løbetid eller et fast antal aftalte leveringer ophører aftalen af sig selv herefter, uden at en opsigelse er nødvendig, og uden at aftalen forlænges automatisk.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 4. Information om fortrydelsesretten iht. lov om forbrugerbeskyttelse, aftale om betaling af udgifter til returnering",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Du har ret til, uden nærmere angivelse af årsagen, at fortryde denne aftale inden for fjorten dage. Fortrydelsesfristen er fjorten dage fra den dag, hvor du eller en af dig nærmere specificeret tredjepart, der ikke er udbringeren, tog varerne i besiddelse.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis du ønsker at gøre brug af din fortrydelsesret, skal du ved hjælp af en entydig erklæring (f.eks. via brevpost, fax eller e-mail) informere os om din beslutning om at fortryde denne aftale. Til dette formål har vi udarbejdet en skabelon, som du er velkommen til at benytte (se nedenfor); dette er dog ikke noget krav. Med henblik på overholdelse af fortrydelsesfristen er det tilstrækkeligt, hvis du sender os din meddelelse om udøvelse af fortrydelsesretten inden fortrydelsesfristens udløb",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Marley Spoon B.V.℅ Marley Spoon AGPaul-Lincke-Ufer 39/4010999 BerlinTelefon: +45 89 88 80 03E-Mail: ",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {
+                    "uri": "mailto:kontakt@marleyspoon.dk"
+                  },
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "value": "kontakt@marleyspoon.dk",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "hyperlink"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis du fortryder denne aftale, er vi forpligtet til at tilbagebetale dig samtlige betalinger vi har modtaget fra dig, inklusive leveringsomkostninger (med undtagelse af yderligere omkostninger, der er opstået fordi du har valgt en anden type levering end den anbefalede, billigste standardlevering), med det samme og senest inden for fjorten dage fra den dato, hvor vi modtog din meddelelse om din fortrydelse af denne aftale. I forbindelse med denne tilbagebetaling anvender vi samme betalingsmetode, som du selv valgte i forbindelse med den oprindelige transaktion, medmindre vi udtrykkeligt har aftalt andet; du vil på ingen måde blive pålagt ekstra gebyrer i forbindelse med refusionen. Vi kan tilbageholde tilbagebetalingen, indtil vi har fået varerne retur, eller indtil du har dokumenteret, at du har sendt varerne tilbage, alt efter hvad der kommer først. Du betaler selv de umiddelbare udgifter til retursending af varerne. Du skal kun dække en eventuel værdiforringelse af varen, hvis denne værdiforringelse kan føres tilbage til dig, fordi du har håndteret varen på en måde, der ikke var nødvendig i forhold til at teste varens beskaffenhed, egenskaber og funktionalitet.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Supplerende bemærkninger",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-2"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Fortrydelsesretten gælder ikke ved aftaler om levering af varer, der ikke egner sig til returforsendelse grundet deres beskaffenhed, eller som hurtigt bliver fordærvet (§ 312g, stk. 2). Dette gælder især letfordærvelige fødevarer.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Supplerende bemærkninger",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "heading-2"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "(Hvis du ønsker at fortryde aftalen, skal du udfylde denne formular og sende den tilbage til os).",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Til Marley Spoon B.V., ℅ Marley Spoon AG, Paul-Lincke-Ufer 39/40, 10999 Berlin, Tyskland, eller kontakt@marleyspoon.dk",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Hermed fortryder jeg/vi(*) den aftale, der er indgået med mig/os(*) om køb af følgende varer(*)/levering af følgende tjenesteydelser(*)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Bestilt den(*)/modtaget den(*)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Forbrugerens/forbrugernes navn(e)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Forbrugerens/forbrugernes adresse",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Forbrugerens underskrift (kun ved skriftlige meddelelser på papir)",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "unordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "(*) det ikke relevante skal streges ud",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 5. Levering, leveringsforudsætninger, ejendomsforbehold, risikoovergang, leveringsafbrydelse",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Marley Spoon leverer til den adresse, som den bestillende part har angivet på Marley Spoons website eller under bestillingsprocessen. En adresseændring er tidligst gyldig for bestillinger, der er planlagt til levering 6 dage efter datoen for adresseændringen. En adresseændring kan ligeledes foretages op til 48 timer før bestillingen; i så fald er en afbestilling af den næste levering dog ikke mere mulig.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Den bestillende part forpligter sig til at sikre, at den personlige aflevering af varen på den angivne adresse er mulig. Hvis aflevering ikke er mulig, opfattes det, som om den bestillende part har nægtet at tage imod bestillingen.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis den personlige aflevering af varen ikke er mulig, kan aftalen ligeledes opfyldes ved at stille varen ved døren til den bestillende parts bolig. I det øjeblik varen stilles uden for døren til din bolig, overgår ejendomsretten til dig.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis det ikke er muligt at stille varen ved døren til den bestillende parts bolig, kan aftalen ligeledes opfyldes ved at stille varen ved ejendommens hoveddør i tilfælde af levering til lejlighed. I det øjeblik varen stilles uden for hoveddøren, overgår ejendomsretten til den bestillende part.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis det ikke er muligt at stille varen noget sted, kan aftalen ligeledes opfyldes ved at aflevere varen til en nabo eller nærliggende forretning. I det øjeblik varen afleveres til en nabo eller nærliggende forretning, overgår ejendomsretten til den bestillende part.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis modtagelse i henhold til stk. 2 ikke er mulig og derfor fører til manglende udlevering, skal den bestillende part afholde samtlige udgifter forbundet med den manglende aflevering. Et nyt leveringsforsøg er som udgangspunkt udelukket.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis varen på tidspunktet for den personlige aflevering iht. stk. 4 endnu ikke er betalt, beholder Marley Spoon ejendomsretten, indtil den fuldstændige betaling af købsprisen er modtaget.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 6. Reklamationsret",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Købelovens reklamationsret er gældende.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 7. Priser og forsendelsesudgifter, frist, betaling, modregning, tilbagebetaling",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Priserne er inklusive moms.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Fordringer fra Marley Spoon forfalder til omgående betaling uanset en lovbestemt fortrydelsesret.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Den bestillende part kan betale med kreditkort efter eget valg, direkte debitering (ELV) eller andre godkendte betalingsmetoder som angivet på Marley Spoons website, herunder f.eks. PayPal eller køb på regning.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Køb på regningKøb på regning. Ved køb på regning forfalder regningsbeløbet til betaling på kalenderdagen angivet på regningen (20 eller 30 kalenderdage efter regningsdatoen) og skal betales til vores eksterne partner Billpay GmbH ",
+                                  "nodeType": "text"
+                                },
+                                {
+                                  "data": {
+                                    "uri": "https://www.billpay.de/endkunden/"
+                                  },
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "marks": [
+                                        {
+                                          "type": "underline"
+                                        }
+                                      ],
+                                      "value": "https://www.billpay.de/endkunden/",
+                                      "nodeType": "text"
+                                    }
+                                  ],
+                                  "nodeType": "hyperlink"
+                                },
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": ". Betalingsmetoden køb på regning tilbydes ikke for alle varer og forudsætter bl.a. en positiv kreditvurdering fra Billpay GmbH. Hvis kunden efter kreditvurderingen godkendes til at måtte foretage køb af bestemte varer på regning, sker betalingsafviklingen i samarbejde med Billpay GmbH, som opkræver betalingen på vores vegne. Kunden kan i dette tilfælde kun betale med frigørende virkning til Billpay GmbH. Ved køb på regning via Billpay er vi fortsat ansvarlige for generelle kundeforespørgsler (f.eks. vedrørende varer, leveringstid, forsendelse), retursendinger, reklamationer, fortrydelseserklæringer og tilsendelser eller tilgodebeviser. De generelle forretningsbetingelser for Billpay GmbH ",
+                                  "nodeType": "text"
+                                },
+                                {
+                                  "data": {
+                                    "uri": "https://www.billpay.de/allgemein/datenschutz/"
+                                  },
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "marks": [
+                                        {
+                                          "type": "underline"
+                                        }
+                                      ],
+                                      "value": "https://www.billpay.de/allgemein/datenschutz/",
+                                      "nodeType": "text"
+                                    }
+                                  ],
+                                  "nodeType": "hyperlink"
+                                },
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": " er gældende.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Køb ved direkte debitering, tilladelse til direkte debitering, administrationsgebyr ved afviste direkte debiteringer",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Ved køb med direkte debitering forfalder det udestående beløb straks til betaling. Beløbet hæves via vores eksterne partner Billpay GmbH ",
+                                          "nodeType": "text"
+                                        },
+                                        {
+                                          "data": {
+                                            "uri": "https://www.billpay.de/endkunden/"
+                                          },
+                                          "content": [
+                                            {
+                                              "data": {},
+                                              "marks": [
+                                                {
+                                                  "type": "underline"
+                                                }
+                                              ],
+                                              "value": "https://www.billpay.de/endkunden/",
+                                              "nodeType": "text"
+                                            }
+                                          ],
+                                          "nodeType": "hyperlink"
+                                        },
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": " på bankkontoen hos det angivne kreditinstitut (bankkontoen) angivet under bestillingsprocessen. Dermed giver du Billpay GmbH tilladelse til at hæve udestående betalinger og anmoder dit pengeinstitut om at udføre debiteringerne. Billpays kreditor-identifikationsnummer er DE19ZZZ00000237180. Mandat-referencenummeret oplyses senere per e-mail. Bemærk: Inden for otte uger fra debiteringsdatoen kan du forlange tilbagebetaling af det hævede beløb. I den forbindelse gælder de betingelser, du har indgået med dit pengeinstitut. Bemærk venligst, at den udestående fordring fortsat er skyldig, også selvom du vælger at afvise den direkte debitering. Du finder yderligere Informationer på ",
+                                          "nodeType": "text"
+                                        },
+                                        {
+                                          "data": {
+                                            "uri": "https://www.billpay.de/sepa"
+                                          },
+                                          "content": [
+                                            {
+                                              "data": {},
+                                              "marks": [
+                                                {
+                                                  "type": "underline"
+                                                }
+                                              ],
+                                              "value": "https://www.billpay.de/sepa",
+                                              "nodeType": "text"
+                                            }
+                                          ],
+                                          "nodeType": "hyperlink"
+                                        },
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": ". Informationerne vedrørende den forestående direkte debitering sendes til dig per e-mail mindst én dag inden forfaldsdatoen. Vi anvender e-mailadressen angivet af dig i forbindelse med bestillingen. Hvis der ikke er tilstrækkelig dækning på kontoen, har det kontoførende kreditinstitut ikke pligt til at udføre betalingen. Delbetalinger anvendes ikke inden for direkte debitering.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Betalingsmetoden køb per direkte debitering tilbydes ikke for alle varer og forudsætter bl.a. en positiv kreditvurdering fra Billpay GmbH ",
+                                          "nodeType": "text"
+                                        },
+                                        {
+                                          "data": {
+                                            "uri": "https://www.billpay.de/endkunden/"
+                                          },
+                                          "content": [
+                                            {
+                                              "data": {},
+                                              "marks": [
+                                                {
+                                                  "type": "underline"
+                                                }
+                                              ],
+                                              "value": "https://www.billpay.de/endkunden/",
+                                              "nodeType": "text"
+                                            }
+                                          ],
+                                          "nodeType": "hyperlink"
+                                        },
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": " samt en dansk bankkonto. Hvis kunden efter kreditvurderingen godkendes til at måtte foretage køb af bestemte varer via direkte debitering, sker betalingsafviklingen i samarbejde med Billpay GmbH, som opkræver betalingen på vores vegne. Kunden kan i dette tilfælde kun betale med frigørende virkning til Billpay GmbH. Ved køb med direkte debitering via Billpay er vi fortsat ansvarlige for generelle kundeforespørgsler (f.eks. vedrørende varer, leveringstid, forsendelse), retursendinger, reklamationer, fortrydelseserklæringer og tilsendelser eller tilgodebeviser. De generelle forretningsbetingelser for Billpay GmbH ",
+                                          "nodeType": "text"
+                                        },
+                                        {
+                                          "data": {
+                                            "uri": "https://www.billpay.de/allgemein/datenschutz/"
+                                          },
+                                          "content": [
+                                            {
+                                              "data": {},
+                                              "marks": [
+                                                {
+                                                  "type": "underline"
+                                                }
+                                              ],
+                                              "value": "https://www.billpay.de/allgemein/datenschutz/",
+                                              "nodeType": "text"
+                                            }
+                                          ],
+                                          "nodeType": "hyperlink"
+                                        },
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": " er gældende.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Når du indtaster dine kontooplysninger, bekræfter du samtidig, at du er berettiget til at godkende direkte debiteringer for denne bankkonto, og at du vil sørge for den nødvendige dækning. Afviste debiteringer er forbundet med meget arbejde og mange udgifter for både os og Billpay GmbH. I tilfælde af en afvist direkte debitering (grundet manglende dækning på bankkontoen, opsigelse af bankkontoen eller uberettiget indsigelse fra kontoindehaveren), giver du Billpay tilladelse til at forsøge at trække det skyldige beløb endnu en gang via direkte debitering. I disse tilfælde er du forpligtet til at betale omkostningerne i forbindelse med den afviste direkte debitering. Der tages forbehold for yderligere fordringer. Grundet den store tidsmæssige og finansielle belastning forbundet med afvisning af direkte debiteringer, samt med henblik på at undgå administrationsgebyret, beder vi dig om ikke at afvise den direkte betaling, selvom du ønsker at gøre brug af fortrydelsesretten eller træde tilbage fra købsaftalen. I disse tilfælde refunderes relevante beløb til dig efter nærmere aftale med os, enten i form af overførsel eller tilgodebevis.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                }
+                              ],
+                              "nodeType": "ordered-list"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Kontoen eller kreditkortet, som den bestillende part har angivet i forbindelse med indgåelse af aftalen, debiteres umiddelbart. Under hele løbetiden efter indgåelse af aftalen debiteres kontoen eller kreditkortet ugentligt. Kontoen eller kreditkortet debiteres i den forbindelse i slutningen af den uge, der ligger forud for leveringen. Grundet rabatter eller tilbudskampagner kan det ugentlige beløb til debitering variere.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Indløsningsbetingelserne for værdikuponer afhænger af de pågældende markedsføringskampagner. Hvis der ikke er fastlagt nogen individuelle betingelser for anvendelse af tilgodebeviser, gælder som udgangspunkt følgende betingelser:",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Værdikuponer kan ikke kombineres med andre rabatordninger.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Værdikuponer gælder som udgangspunkt kun for nye kunder.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "Efterfølgende kreditering af værdikuponer er ikke mulig.",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                }
+                              ],
+                              "nodeType": "ordered-list"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Den bestillende part må gerne offentliggøre sin personlige rabatkode på et privat website eller en privat blog eller på sin private profil hos Facebook eller Twitter. Det er derimod ikke tilladt at offentliggøre rabatkoder på kommercielle sider eller sider drevet af tredjepart, som f.eks. rabatsider, dealblogs og fora. Hvis rabatkoden deles på sider tilhørende tredjepart, slettes rabatkoden. Det erhvervede og eventuelt resterende tilgodehavende mister i så fald sin gyldighed og kan ikke længere indløses hos Marley Spoon.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 8. Marley Spoons erstatningsansvar, den bestillende parts forpligtelser",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Marley Spoon er erstatningsansvarlig:",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "hvis den bestillende part udsættes for skader på liv, legeme eller helbred som følge af pligtforsømmelse udvist af Marley Spoon eller en af dennes juridiske repræsentanter eller medhjælpere,",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "i henhold til produktansvarsloven ifm. overtagelse af en garanti eller ved afgivelse af bevidst urigtige oplysninger",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "hvis Marley Spoon eller dennes juridiske repræsentanter eller medhjælpere har forårsaget skaderne forsætligt eller ved grov uagtsomhed, og/eller",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                },
+                                {
+                                  "data": {},
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "content": [
+                                        {
+                                          "data": {},
+                                          "marks": [],
+                                          "value": "hvis skaderne er opstået som følge af, at Marley Spoon har overtrådt en forpligtelse, hvis opfyldelse er forudsætningen for en korrekt gennemførelse af aftalen, og som den bestillende part forventer og kan forvente bliver overholdt (kardinalpligt).",
+                                          "nodeType": "text"
+                                        }
+                                      ],
+                                      "nodeType": "paragraph"
+                                    }
+                                  ],
+                                  "nodeType": "list-item"
+                                }
+                              ],
+                              "nodeType": "ordered-list"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Marley Spoon er i tilfældene angivet under stk. 1, litra a), b) og/eller c) ubegrænset erstatningsansvarlig. Herudover er kravet om skadeserstatning begrænset til forudsigelige, aftaletypiske skader.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "I alle andre tilfælde end de i stk. 1 omtalte påtager Marley Spoon sig intet erstatningsansvar uanset retsgrundlaget.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Ansvarsbestemmelserne i de forudgående stykker gælder også for det personlige ansvar, Marley Spoons institutioner, ansatte og agenter ifalder.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Den bestillende part er forpligtet til at læse og overholde produkt-, konsum- og advarselshenvisningerne for de leverede produkter inden anvendelse.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 9. Databeskyttelse",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Se vores ",
+                                  "nodeType": "text"
+                                },
+                                {
+                                  "data": {
+                                    "uri": "https://marleyspoon.de/privacy"
+                                  },
+                                  "content": [
+                                    {
+                                      "data": {},
+                                      "marks": [
+                                        {
+                                          "type": "underline"
+                                        }
+                                      ],
+                                      "value": "meddelelse om databeskyttelse",
+                                      "nodeType": "text"
+                                    }
+                                  ],
+                                  "nodeType": "hyperlink"
+                                },
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": " for oplysninger om vores databeskyttelse.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Retten til at gøre indsigelse mod behandling af data med henblik på direkte markedsføring: Inden for rammerne af de juridiske bestemmelser kan Marley Spoon, ud over til gennemførelsen af aftalen, behandle den e-mailadresse, vi har modtaget fra dig i forbindelse med salg af vores varer eller levering af vores ydelser, til direkte markedsføring, f.eks. til at informere dig per e-mail om nyheder, produkter og serviceydelser fra Marley Spoon. Du har ret til når som helst at gøre indsigelse mod behandlingen af dine personoplysninger med henblik på markedsføring af denne type, uden at der af den grund opstår andre overførselsomkostninger end den normale basistarif. Dette gælder også for profilering, i det omfang profileringen står i forbindelse med den direkte markedsføring. Hvis du gør indsigelse mod databehandlingen målrettet direkte markedsføring, behandler vi ikke længere dine personoplysninger til dette formål (direkte markedsføring). Indsigelsen kan ske formløst. Du finder kontaktdataene i kolofonen eller i databeskyttelseserklæringen.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "\n",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 10. Ungdomsværn",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Vi gør udtrykkeligt opmærksom på, at det er forbudt at servere alkoholiske drikke til børn og unge. Med sin anerkendelse af vores generelle forretningsbetingelser bekræfter den bestillende part ved bestilling af alkoholiske drikkevarer, at vedkommende er myndig.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Den bestillende part forpligter sig til at sørge for, at kun vedkommende selv eller en myndig person udpeget af den bestillende part tager imod bestillinger indeholdende alkoholiske drikkevarer.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "§ 11. Lovvalg, ingen tillægsaftaler, bestemmelser vedrørende uvirksomme eller uigennemførlige lovbestemmelser og juridiske tomrum",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Dansk ret er gældende med udelukkelse af De Forenede Nationers konvention om aftaler om internationale køb (CISG).",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Der er ikke indgået nogen tillægsaftaler.",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        },
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "content": [
+                                {
+                                  "data": {},
+                                  "marks": [],
+                                  "value": "Hvis en bestemmelse i den indgåede aftale viser sig at være eller blive uvirksom eller uigennemførlig, forbliver aftalen uberørt af dette og er fortsat virksom. Den uvirksomme eller uigennemførlige bestemmelse erstattes i stedet af en lovbestemt bestemmelse eller i fraværet af en sådan den virksomme og gennemførlige bestemmelse, som partnerne med al rimelighed må forventes at ville have aftalt, havde de haft kendskab til den uvirksomme eller uigennemførlige bestemmelse. Det samme gælder i tilfælde af juridiske tomrum.\n",
+                                  "nodeType": "text"
+                                }
+                              ],
+                              "nodeType": "paragraph"
+                            }
+                          ],
+                          "nodeType": "list-item"
+                        }
+                      ],
+                      "nodeType": "ordered-list"
+                    }
+                  ],
+                  "nodeType": "list-item"
+                }
+              ],
+              "nodeType": "ordered-list"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "5zFlTAeV4Aq2oI8ykuqGMQ",
+        "type": "Entry",
+        "createdAt": "2018-12-07T21:53:29.654Z",
+        "updatedAt": "2018-12-10T18:33:45.062Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "staticPage"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "country": "de",
+        "brand": "ms",
+        "slug": "first-static-page",
+        "javascript": "<script>\n  console.log(\"STUFF\"); console.log(\"OH MORE\");\n</script>",
+        "css": ".red {\n  color: red;\n}",
+        "body": "<h1 class=\"red\">Hey Ben!</h1>\n<img src=\"//images.ctfassets.net/kk2bw5ojx476/6itZl58gDYYEGoWuI8aiwq/64125021528d45e5e52ad5b57f0b5ccc/MULHOLLANDDRIVE_VARIANT_KEVINTONG.jpg\" alt=\"stuff\" />"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "NysGB8obcaQWmq0aQ6qkC",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:29:03.514Z",
+        "updatedAt": "2018-05-07T14:19:02.570Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "chef"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Jony Chives"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "1Z8SwWMmS8E84Iogk4E6ik",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:28:25.324Z",
+        "updatedAt": "2018-05-07T14:17:27.403Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "chef"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Mark Zucchiniberg "
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "4dT8tcb6ukGSIg2YyuGEOm",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:38:22.351Z",
+        "updatedAt": "2018-05-07T13:41:01.986Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recipe"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "White Cheddar Grilled Cheese with Cherry Preserves & Basil",
+        "photo": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "61XHcqOBFYAYCGsKugoMYK"
+          }
+        },
+        "calories": 788,
+        "description": "*Grilled Cheese 101*: Use delicious cheese and good quality bread; make crunchy on the outside and ooey gooey on the inside; add one or two ingredients for a flavor punch! In this case, cherry preserves serve as a sweet contrast to cheddar cheese, and basil adds a light, refreshing note. Use __mayonnaise__ on the outside of the bread to achieve the ultimate, crispy, golden-brown __grilled cheese__. Cook, relax, and enjoy!",
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3RvdyqS8408uQQkkeyi26k"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "5jy9hcMeEgQ4maKGqIOYW6",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:40:27.932Z",
+        "updatedAt": "2018-05-07T13:40:27.932Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recipe"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Tofu Saag Paneer with Buttery Toasted Pita",
+        "photo": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "48S44TRZN626y4Wy4CuOmA"
+          }
+        },
+        "calories": 900,
+        "description": "Saag paneer is a popular Indian dish with iron-rich spinach and cubes of paneer, an Indian cheese that is firm enough to retain it's shape, but silky-soft on the inside. We have reimagined Saag Paneer and replaced the \"paneer\" with crispy cubes of firm tofu, making this already delicious and nutritious vegetarian dish burst with protein. Toasted pita bread is served alongside as an ode to naan. Cook, relax, and enjoy! [VIDEO](https://www.youtube.com/watch?v=RMzWWwfWdVs)"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "11khwUJbtwiiI0k84cQgSK",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:37:17.702Z",
+        "updatedAt": "2018-05-07T13:37:17.702Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "chef"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Elon Mustard "
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "2E8bc3VcJmA8OgmQsageas",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:30:34.066Z",
+        "updatedAt": "2018-05-07T13:37:01.760Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recipe"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Grilled Steak & Vegetables with Cilantro-Jalapeño Dressing",
+        "photo": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "3TJp6aDAcMw6yMiE82Oy0K"
+          }
+        },
+        "calories": 345,
+        "description": "Warmer weather means the ushering in of grill season and this recipe completely celebrates the grill (or grill pan)! Squash and green beans are nicely charred then take a bath in a zesty cilantro-jalapeño dressing. After the steaks are perfectly seared, the same dressing does double duty as a tasty finishing sauce. A fresh radish salad tops it all off for crunch and a burst of color. Cook, relax, and enjoy!",
+        "chef": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "1Z8SwWMmS8E84Iogk4E6ik"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "437eO3ORCME46i02SeCW46",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:32:04.593Z",
+        "updatedAt": "2018-05-07T13:36:41.741Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recipe"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Crispy Chicken and Rice\twith Peas & Arugula Salad",
+        "photo": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "5mFyTozvSoyE0Mqseoos86"
+          }
+        },
+        "calories": 785,
+        "description": "Crispy chicken skin, tender meat, and rich, tomatoey sauce form a winning trifecta of delicious in this one-pot braise. We spoon it over rice and peas to soak up every last drop of goodness, and serve a tangy arugula salad alongside for a vibrant boost of flavor and color. Dinner is served! Cook, relax, and enjoy!",
+        "chef": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "NysGB8obcaQWmq0aQ6qkC"
+          }
+        },
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "61Lgvo6rzUIgIGgcOAMgQ8"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "gUfhl28dfaeU6wcWSqs0q"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "2uPXLn31U8A68wQkGA06e8",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:28:04.129Z",
+        "updatedAt": "2018-05-07T13:28:04.129Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tag"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "nuts free"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "3RvdyqS8408uQQkkeyi26k",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:27:45.974Z",
+        "updatedAt": "2018-05-07T13:27:45.974Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tag"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "vegan"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "61Lgvo6rzUIgIGgcOAMgQ8",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:27:25.845Z",
+        "updatedAt": "2018-05-07T13:27:25.845Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tag"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "gluten free"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "kk2bw5ojx476"
+          }
+        },
+        "id": "gUfhl28dfaeU6wcWSqs0q",
+        "type": "Entry",
+        "createdAt": "2018-05-07T13:26:53.870Z",
+        "updatedAt": "2018-05-07T13:27:08.774Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tag"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "healthy"
+      }
+    }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "kk2bw5ojx476"
+            }
+          },
+          "id": "3TJp6aDAcMw6yMiE82Oy0K",
+          "type": "Asset",
+          "createdAt": "2018-05-07T13:30:06.967Z",
+          "updatedAt": "2018-05-07T13:30:06.967Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "SKU1503 Hero 102 1 -6add52eb4eec83f785974ddeac3316b7",
+          "file": {
+            "url": "//images.ctfassets.net/kk2bw5ojx476/3TJp6aDAcMw6yMiE82Oy0K/2a4cde3c1c7e374166dcce1e900cb3c1/SKU1503_Hero_102__1_-6add52eb4eec83f785974ddeac3316b7.jpg",
+            "details": {
+              "size": 216391,
+              "image": {
+                "width": 1020,
+                "height": 680
+              }
+            },
+            "fileName": "SKU1503_Hero_102__1_-6add52eb4eec83f785974ddeac3316b7.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "kk2bw5ojx476"
+            }
+          },
+          "id": "48S44TRZN626y4Wy4CuOmA",
+          "type": "Asset",
+          "createdAt": "2018-05-07T13:39:06.171Z",
+          "updatedAt": "2018-05-07T13:39:06.171Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "SKU1498 Hero 154 2 -adb6124909b48c69f869afecb78b6808-2",
+          "file": {
+            "url": "//images.ctfassets.net/kk2bw5ojx476/48S44TRZN626y4Wy4CuOmA/9c0a510bc3d18dda9318c6bf49fac327/SKU1498_Hero_154__2_-adb6124909b48c69f869afecb78b6808-2.jpg",
+            "details": {
+              "size": 218803,
+              "image": {
+                "width": 1020,
+                "height": 680
+              }
+            },
+            "fileName": "SKU1498_Hero_154__2_-adb6124909b48c69f869afecb78b6808-2.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "kk2bw5ojx476"
+            }
+          },
+          "id": "5mFyTozvSoyE0Mqseoos86",
+          "type": "Asset",
+          "createdAt": "2018-05-07T13:31:45.501Z",
+          "updatedAt": "2018-05-07T13:31:45.501Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "SKU1479 Hero 077-71d8a07ff8e79abcb0e6c0ebf0f3b69c",
+          "file": {
+            "url": "//images.ctfassets.net/kk2bw5ojx476/5mFyTozvSoyE0Mqseoos86/fb88f4302cfd184492e548cde11a2555/SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg",
+            "details": {
+              "size": 230068,
+              "image": {
+                "width": 1020,
+                "height": 680
+              }
+            },
+            "fileName": "SKU1479_Hero_077-71d8a07ff8e79abcb0e6c0ebf0f3b69c.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "kk2bw5ojx476"
+            }
+          },
+          "id": "61XHcqOBFYAYCGsKugoMYK",
+          "type": "Asset",
+          "createdAt": "2018-05-07T13:37:53.784Z",
+          "updatedAt": "2018-05-07T13:37:53.784Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "SKU1240 hero-374f8cece3c71f5fcdc939039e00fb96",
+          "file": {
+            "url": "//images.ctfassets.net/kk2bw5ojx476/61XHcqOBFYAYCGsKugoMYK/0009ec560684b37f7f7abadd66680179/SKU1240_hero-374f8cece3c71f5fcdc939039e00fb96.jpg",
+            "details": {
+              "size": 194737,
+              "image": {
+                "width": 1020,
+                "height": 680
+              }
+            },
+            "fileName": "SKU1240_hero-374f8cece3c71f5fcdc939039e00fb96.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    ]
+  }
+}

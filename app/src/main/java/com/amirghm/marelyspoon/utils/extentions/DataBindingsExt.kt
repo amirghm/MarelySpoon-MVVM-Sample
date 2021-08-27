@@ -1,11 +1,19 @@
-package com.amirghm.grocery.utils.extentions
+package com.amirghm.marelyspoon.utils.extentions
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
-import com.amirghm.grocery.utils.helper.imageloader.loadImage
+import com.amirghm.marelyspoon.R
+import com.amirghm.marelyspoon.utils.helper.imageloader.loadImage
+import com.google.android.material.chip.ChipGroup
+
+import com.google.android.material.chip.Chip
+
+
+
 
 
 /**
@@ -45,5 +53,34 @@ fun View.navigateUp(isEnabled: Boolean = false) {
         context?.let {
             (it as AppCompatActivity).onBackPressed()
         }
+    }
+}
+
+/**
+ * Switch visibility of the view if the condition is true
+ */
+@BindingAdapter("isVisible")
+fun isVisible(view: View, isVisible: Boolean) {
+    if(isVisible)view.visibility = View.VISIBLE else view.visibility = View.GONE
+}
+
+/**
+ * Set Chips to the ChipGroup
+ */
+@BindingAdapter("chips")
+fun setChips(chipGroup: ChipGroup, chips: List<String>?) {
+    if(chips.isNullOrEmpty()){
+        chipGroup.visibility = View.GONE
+        return
+    }
+
+    for (chipText in chips)
+    {
+        val chip = Chip(chipGroup.context)
+        chip.text = chipText
+        chip.setChipBackgroundColorResource(R.color.colorAccent)
+        chip.setTextColor(ContextCompat.getColor(chipGroup.context,android.R.color.white))
+
+        chipGroup.addView(chip)
     }
 }
