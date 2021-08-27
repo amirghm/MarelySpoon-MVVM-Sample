@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="recipe"
+            type="com.amirghm.marelyspoon.data.model.recipe.RecipeModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTintBackground">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/recipeImageRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_details_height"
+                    android:background="@color/colorGrey">
+
+                    <ImageView
+                        android:layout_width="@dimen/recipe_image_width"
+                        android:layout_height="@dimen/recipe_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd__recipe_image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_place_holder" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd__recipe_image"
+                        android:scaleType="centerCrop"
+                        app:srcUrl="@{recipe.imageUrl}" />
+
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/clickable_icon_size"
+                    android:layout_alignBottom="@+id/recipeImageRelativeLayout"
+                    android:background="@drawable/d_down_shadow" />
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    style="@style/titleTextAppearance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/recipeImageRelativeLayout"
+                    android:layout_marginStart="@dimen/distance_large"
+                    android:layout_marginBottom="@dimen/distance_small"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@{recipe.title}"
+                    android:textColor="@android:color/white"
+                    android:textStyle="normal"
+                    tools:text="Mozzarellaa" />
+
+
+                <TextView
+                    android:id="@+id/chefTextView"
+                    style="@style/titleTextAppearance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recipeImageRelativeLayout"
+                    android:layout_marginStart="@dimen/distance_large"
+                    android:layout_marginTop="@dimen/distance_large"
+                    android:singleLine="true"
+                    android:text="@{recipe.chef}"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textStyle="normal"
+                    tools:text="Gordon Ramzi" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/recipeImageCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/recipe_image_height"
+                    android:layout_below="@+id/chefTextView"
+                    android:layout_margin="@dimen/distance_large"
+                    android:minWidth="@dimen/recipe_image_width"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="@dimen/image_corner_radius"
+                    app:cardElevation="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="@drawable/dashed_line"
+                        android:layout_margin="2dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/descriptionTitleTextView"
+                            style="@style/detailsTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/distance_large"
+                            android:layout_marginTop="@dimen/distance_large"
+                            android:singleLine="true"
+                            android:textColor="@color/colorRecipes"
+                            android:textStyle="bold"
+                            android:text="@string/recipe_details__description" />
+
+                        <TextView
+                            android:id="@+id/descriptionTextView"
+                            style="@style/detailsTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/descriptionTitleTextView"
+                            android:layout_marginStart="@dimen/distance_large"
+                            android:layout_marginTop="@dimen/distance_medium"
+                            android:layout_marginBottom="@dimen/distance_large"
+                            android:singleLine="true"
+                            android:text="@{recipe.description}"
+                            app:placeHolder="@{@string/recipe_details__description_place_holder}"
+                            tools:text="@string/recipe_details__description_place_holder" />
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/closeImageView"
+            android:layout_width="@dimen/clickable_icon_size"
+            android:layout_height="@dimen/clickable_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/distance_large"
+            android:background="@drawable/circle_white"
+            android:contentDescription="@string/cd__back"
+            android:elevation="@dimen/distance_small"
+            android:padding="@dimen/clickable_icon_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigateUpOnClick="@{true}"
+            app:srcCompat="@drawable/ic_back" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

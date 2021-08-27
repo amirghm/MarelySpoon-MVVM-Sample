@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/noInternetRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/noInternetImageView"
+                android:layout_width="@dimen/no_internet_icon_size"
+                android:layout_height="@dimen/no_internet_icon_size"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/cd__no_connection"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"
+                app:srcCompat="@drawable/ic_no_signal"
+                app:tint="@color/colorSecondaryText" />
+
+            <TextView
+                android:id="@+id/noInternetWarningTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                style="@style/primaryTextAppearance"
+                android:layout_marginTop="@dimen/distance_large"
+                android:gravity="center_horizontal"
+                android:text="@string/general__error_connection_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noInternetImageView" />
+
+
+            <TextView
+                android:id="@+id/noInternetWarningDescTextView"
+                style="@style/detailsTextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/distance_large"
+                android:layout_marginTop="@dimen/distance_medium"
+                android:layout_marginEnd="@dimen/distance_large"
+                android:gravity="center_horizontal"
+                android:text="@string/general__error_connection_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noInternetWarningTextView" />
+
+            <Button
+                android:id="@+id/noInternetTryAgainButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/noInternetWarningTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/distance_xlarge"
+                android:layout_marginBottom="@dimen/distance_xlarge"
+                android:drawablePadding="@dimen/distance_medium"
+                android:text="@string/general__try_again"
+                android:textColor="@android:color/white"
+                android:visibility="visible"
+                app:drawableEndCompat="@drawable/ic_replay"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noInternetWarningDescTextView"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

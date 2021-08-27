@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Marely Spoon Sample</string>
+
+    <!--Recipes Page-->
+    <string name="recipes__title">Marley Recipes</string>
+    <string name="recipes__message_empty_title">"Aw Ow! You Come Late "</string>
+    <string name="recipes__message_empty_description">Seems all recipes finished right now ☹️\nCome back tomorrow for the new recipes</string>
+
+    <!--Recipe Details Page-->
+    <string name="recipe_details__description_place_holder">This recipe has no description</string>
+    <string name="recipe_details__description">Description</string>
+    <string name="recipe_details__title">Recipe Details</string>
+    
+    <!--General Resources-->
+    <string name="general__error_connection_title">Something went wrong 🧐</string>
+    <string name="general__error_connection_description">An error occurred during processing your request\nplease try again later</string>
+    <string name="general__try_again">Try Again</string>
+
+    <!--Content Descriptions-->
+    <string name="cd__back">"Navigate Back"</string>
+    <string name="cd__no_connection">No Connection Image</string>
+    <string name="cd__empty_image">Empty Image</string>
+    <string name="cd__recipe_image">Recipe Image</string>
+
 </resources>
