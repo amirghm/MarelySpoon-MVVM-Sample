@@ -19,7 +19,5 @@ data class RecipeModel(
     val imageUrl: String,
     val description: String,
     val chef: String,
-    val tags: List<TagModel>
-): Parcelable {
-
-}
+    val tags: List<String>
+): Parcelable

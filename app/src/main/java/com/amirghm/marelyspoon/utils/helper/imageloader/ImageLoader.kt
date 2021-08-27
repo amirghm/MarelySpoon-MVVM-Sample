@@ -1,4 +1,4 @@
-package com.amirghm.grocery.utils.helper.imageloader
+package com.amirghm.marelyspoon.utils.helper.imageloader
 
 import android.annotation.SuppressLint
 import android.content.Context

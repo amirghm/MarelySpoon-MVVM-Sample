@@ -1,4 +1,4 @@
-package com.amirghm.grocery.utils.helper.network
+package com.amirghm.marelyspoon.utils.helper.network
 
 /**
  * various error status to know what happened if something goes wrong with a repository call

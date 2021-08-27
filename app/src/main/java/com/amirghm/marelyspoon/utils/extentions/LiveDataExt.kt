@@ -1,4 +1,4 @@
-package com.amirghm.grocery.utils.extentions
+package com.amirghm.marelyspoon.utils.extentions
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer

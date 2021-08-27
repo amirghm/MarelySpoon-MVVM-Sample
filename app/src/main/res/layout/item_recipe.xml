@@ -17,14 +17,11 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
         android:gravity="center"
         android:onClick="@{clickListener}"
-        android:layout_marginStart="@dimen/distance_large"
-        android:layout_marginEnd="@dimen/distance_large"
         android:orientation="vertical"
-        android:paddingTop="@dimen/recipe_padding_vertical_size"
-        android:paddingBottom="@dimen/recipe_padding_vertical_size">
+        android:layout_margin="@dimen/distance_medium"
+        >
 
         <androidx.cardview.widget.CardView
             android:id="@+id/recipeImageCardView"
@@ -51,7 +48,7 @@
                     android:src="@drawable/ic_place_holder" />
 
                 <ImageView
-                    android:layout_width="@dimen/recipe_image_width"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/recipe_image_height"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/cd__recipe_image"
@@ -63,22 +60,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/recipe_shadow_size"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/d_down_shadow"
-                    />
+                    android:background="@drawable/d_down_shadow" />
 
                 <TextView
                     style="@style/primaryTextAppearance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="@dimen/distance_medium"
-                    android:layout_marginEnd="@dimen/distance_medium"
-                    android:layout_marginBottom="@dimen/distance_small"
-                    android:maxLines="2"
+                    android:layout_marginStart="@dimen/distance_large"
+                    android:layout_marginEnd="@dimen/distance_large"
+                    android:layout_marginBottom="@dimen/distance_medium"
                     android:ellipsize="end"
-                    android:textSize="@dimen/font_size_medium"
+                    android:maxLines="2"
                     android:text="@{item.title}"
                     android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_size_small"
                     tools:text="Mozzarellsad" />
 
 
