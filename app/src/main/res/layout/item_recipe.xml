@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.amirghm.marelyspoon.data.model.recipe.RecipeModel" />
+
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:onClick="@{clickListener}"
+        android:layout_marginStart="@dimen/distance_large"
+        android:layout_marginEnd="@dimen/distance_large"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/recipe_padding_vertical_size"
+        android:paddingBottom="@dimen/recipe_padding_vertical_size">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recipeImageCardView"
+            android:layout_width="wrap_content"
+            android:minWidth="@dimen/recipe_image_width"
+            android:layout_height="@dimen/recipe_image_height"
+            app:cardCornerRadius="@dimen/image_corner_radius"
+            app:cardBackgroundColor="#F4F4F4"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/recipe_image_height">
+
+                <ImageView
+                    android:layout_width="@dimen/recipe_image_width"
+                    android:layout_height="@dimen/recipe_image_height"
+                    android:layout_marginBottom="@dimen/distance_medium"
+                    android:padding="8dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/cd__recipe_image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_place_holder" />
+
+                <ImageView
+                    android:layout_width="@dimen/recipe_image_width"
+                    android:layout_height="@dimen/recipe_image_height"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/cd__recipe_image"
+                    android:scaleType="centerCrop"
+                    app:srcUrl="@{item.imageUrl}" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/recipe_shadow_size"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/d_down_shadow"
+                    />
+
+                <TextView
+                    style="@style/primaryTextAppearance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/distance_medium"
+                    android:layout_marginEnd="@dimen/distance_medium"
+                    android:layout_marginBottom="@dimen/distance_small"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/font_size_medium"
+                    android:text="@{item.title}"
+                    android:textColor="@android:color/white"
+                    tools:text="Mozzarellsad" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</layout>
